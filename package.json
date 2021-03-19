@@ -1,0 +1,24 @@
+{
+  "name": "rchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafgrigoryan/rchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafgrigoryan/rchat/issues"
+  },
+  "homepage": "https://github.com/rafgrigoryan/rchat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}

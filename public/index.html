@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chatenger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var name = prompt("Please enter your name");
+    </script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div id="intro">
+            <img src="img/chatenger.png" alt=""> 
+        </div>
+        <div class="chatDiv">
+            <ul id="messages"></ul>
+        </div>
+        <form action="">
+            <textarea cols="40" rows="5" id="m" ></textarea><button>Send</button>
+            <!-- <input id="m" placeholder="Enter your message..." autocomplete="off" required /> -->
+        </form>
+
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

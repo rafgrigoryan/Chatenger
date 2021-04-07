@@ -1,4 +1,3 @@
-# Chatenger
 <h1>Chatenger is a live chat for group chats ! </h1>
 
 <h3>How to run ?</h3>
